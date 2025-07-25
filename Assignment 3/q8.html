@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="travelForm">
+    <h2>Travel Booking Form</h2>
+    
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="contact">Contact Information:</label><br>
+    <input type="tel" id="contact" name="contact" required><br><br>
+
+    <label for="destination">Destination:</label>
+    <select id="destination" name="destination" required>
+      <option value="">--Select--</option>
+      <option value="paris">Maldives</option>
+      <option value="newyork">Bali</option>
+      <option value="tokyo">Egypt</option>
+      <option value="sydney">Rome</option>
+    </select><br><br>
+
+    <label for="travelDate">Travel Date:</label>
+    <input type="date" id="travelDate" name="travelDate" required><br><br>
+
+    <label for="numTravellers">Number of Travellers:</label><br>
+    <input type="number" id="numTravellers" name="numTravellers" value="2" required><br><br>
+
+    <label for="travelclass">Travel Class</label><br>
+    <input type="radio" name="class" value="economy" checked> Economy
+    <input type="radio" name="class" value="business"> Business Class
+    <input type="radio" name="class" value="first"> First Class <br><br>
+    <input type="checkbox" id="insurance" name="insurance">
+
+    <label for="insurance">Add Travel Insurance</label><br><br>
+    <label for="totalcost"><strong>Total Cost = 1,00,000 INR</strong></label>
+
+    
+</body>
+</html>
